@@ -1,0 +1,234 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: lab(84.5% -2.29 -10.3); 
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center; 
+    font-size: 2em; 
+    color: #1a535c;
+    margin-bottom: 20px;
+}
+
+#main-header {
+    background-color: #1a535c;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center; 
+}
+
+#main-header h1 {
+    font-size: 2.5em;
+    font-weight: 700; 
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.role-title {
+    font-size: 1.2em;
+    font-weight: 400; 
+    margin: 0;
+}
+
+
+#profile-section {
+    display: flex; 
+    gap: 30px;
+    padding: 40px 0;
+    align-items: center; 
+    justify-content: space-between; 
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0; 
+}
+
+.bio-content {
+    flex-grow: 1;
+}
+
+#skills-section {
+    padding: 40px 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+    gap: 20px; 
+    padding: 0;
+}
+
+.skill-card {
+    background-color: oklab(57.120000000000005% -0.05567 -0.14502);
+    padding: 20px; 
+    border-radius: 8px;
+    text-align: center; 
+    font-weight: 700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-section {
+    padding: 40px 0;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px; 
+    border: 1px solid #8bc2d5;
+    border-radius: 8px;
+    background-color: hsl(175, 79%, 45%);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em; 
+    font-family: inherit;
+}
+
+
+input[type="email"] {
+    display: inline-block; 
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #446ff3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-align: center; 
+    text-transform: capitalize; 
+    font-weight: 700;
+}
+
+#main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; 
+    font-size: 0.9em;
+}
+
+
+.inline-text {
+    display: inline; 
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+
+    #profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    .section-title {
+        font-size: 1.8em;
+    }
+}
+/* Toggle Section */
+#toggle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 50vh;
+  background-color: #ffffff;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+/* Toggle Text */
+#toggle-text {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Toggle Button */
+#toggle-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8491d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-btn:hover {
+  background-color: #cf3f17;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #toggle-text {
+    font-size: 36px;
+  }
+
+  #toggle-btn {
+    width: 80%;
+  }
+}

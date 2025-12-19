@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Biruk Yilfasew Hunde</h1>
+        <p class="role-title">Pre Engineering Student at ASTU</p>
+    </header>
+
+    <main>
+
+        <section id="profile-section">
+            <img src="Profile.jpg" alt="My Profile Picture" class="profile-img">
+            <div class="bio-content">
+                <h2>About Me</h2>
+                <p>Hello! I am a passionate Software Engineering Student focused on building clean, efficient, and scalable web applications. I enjoy leveraging modern front-end technologies like HTML, CSS, and JavaScript to create engaging user experiences. I am currently learning about front-end.</p>
+                <p class="contact-prompt">Let's connect and build something great!</p>
+            </div>
+        </section>
+
+        <section id="skills-section">
+            <h2 class="section-title">Skills & Interests</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5 & CSS3</div>
+                <div class="skill-card">JavaScript (ES6+)</div>
+                <div class="skill-card">Flexbox & Grid</div>
+                <div class="skill-card">Responsive Design</div>
+                <div class="skill-card">Git & GitHub</div>
+
+            </div>
+        </section>
+
+<section id="toggle-section">
+    <h1 id="toggle-text">OFF</h1>
+    <button id="toggle-btn">Toggle</button>
+</section>
+        <section id="contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="main-footer">
+        <p>&copy; 2025 Biruk Yilfasew Hunde. All rights reserved.</p>
+        <p class="inline-text">Built with pure HTML & CSS</p>
+    </footer>
+<script src="java.js"></script>
+</body>
+</html>
