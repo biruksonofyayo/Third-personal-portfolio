@@ -43,3 +43,43 @@ The project is designed to help beginners understand:
 ---
 
 ## 📂 Project Structure
+---
+
+## 🧠 How It Works
+
+1. The page loads with the heading showing **OFF**
+2. When the user clicks the **Toggle** button:
+   - The text changes to **ON**
+3. Clicking the button again:
+   - Changes the text back to **OFF**
+4. This behavior is controlled using JavaScript with a state variable
+
+---
+
+## 📱 Responsive Design
+
+- Content remains centered on small screens
+- Text stays readable on all devices
+- Button resizes properly
+- No horizontal scrolling
+
+---
+
+## 📌 Expected Behavior
+
+- Page loads → **OFF**
+- Click Toggle → **ON**
+- Click Toggle again → **OFF**
+
+---
+
+## 👤 Author
+
+**Biruk Yilfasew Hunde**  
+Pre-Engineering Student at ASTU  
+
+---
+
+## 📜 License
+
+This project is created for educational purposes and personal practice.
