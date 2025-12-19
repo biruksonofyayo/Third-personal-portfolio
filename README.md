@@ -87,7 +87,7 @@ This project is created for educational purposes and personal practice.
 ## 📸 Screenshots
 
 ### Toggle OFF State
-![Toggle OFF](Screenshoton.jpg)
+![Toggle OFF](Screenshotoff.jpg)
 
 ### Toggle ON State
-![Toggle ON](Screenshotoff.jpg)
+![Toggle ON](Screenshoton.jpg)
