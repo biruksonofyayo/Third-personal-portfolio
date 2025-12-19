@@ -83,3 +83,11 @@ Pre-Engineering Student at ASTU
 ## 📜 License
 
 This project is created for educational purposes and personal practice.
+
+## 📸 Screenshots
+
+### Toggle OFF State
+![Toggle OFF](screenshotoff.png)
+
+### Toggle ON State
+![Toggle ON](screenshoton.png)
