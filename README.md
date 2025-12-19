@@ -43,7 +43,14 @@ The project is designed to help beginners understand:
 ---
 
 ## 📂 Project Structure
----
+
+├── index.html
+├── styles.css
+├── java.js
+├── README.md
+└── screenshots/
+    ├── off.png
+    └── on.png
 
 ## 🧠 How It Works
 
