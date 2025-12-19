@@ -42,8 +42,10 @@ The project is designed to help beginners understand:
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```
+📦 Personal Profile
 ├── index.html
 ├── styles.css
 ├── java.js
@@ -51,6 +53,9 @@ The project is designed to help beginners understand:
 └── screenshots/
     ├── off.png
     └── on.png
+```
+
+---
 
 ## 🧠 How It Works
 
